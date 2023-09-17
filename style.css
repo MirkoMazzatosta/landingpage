@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left-top ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 32px;
+}
+
+.left-top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.right-top ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 32px;
+
+}
+
+.right-top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.top {
+    background-color: #141414;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Croissant One', cursive;
+    text-shadow: 2px 2px 6px rgba(255,255,255,0.5);
+    font-size: 60px;
+    font-weight: 1000;
+}
+
+.central {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    border: 3px solid #141414;
+    justify-content: center;
+    text-align: center;
+}
+
+.card h4, p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin: 16px 0;
+}
+
+.card h4 {
+    font-size: 22px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+}
+
+.mid img {
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    width: 1600px;
+    margin: 10px auto;
+    padding: 4px;
+    border: 5px solid #141414 ;
+    border-style: dashed;
+}
+
+.end {
+    margin: 0;
+    padding: 16px;
+    background-color: #141414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Croissant One', cursive;
+    font-size: 32px;
+}
